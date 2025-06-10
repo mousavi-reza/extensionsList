@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>project1</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="logo">
+          <img class="icon-logo" src="/assets/logo.svg" alt="Logo" />
+          <span class="logo-text">Extensions</span>
+        </div>
+        <div class="icon-sun">
+          <img src="/assets/images/icon-sun.svg" alt="Logo" class="logo" />
+        </div>
+      </header>
+
+      <div class="filters" id="filters">
+        <h1 id="title">Extensions List</h1>
+        <div class="filter-item">
+          <span class="filter active" data-filter="all">All</span>
+          <span class="filter" data-filter="active">Active</span>
+          <span class="filter" data-filter="inactive">Inactive</span>
+        </div>
+      </div>
+
+      <ul class="extensions-list" id="extensions-list">
+        <li class="no-extensions">هیچ افزونه‌ای وجود ندارد.</li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
